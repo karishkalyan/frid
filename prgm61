@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+char ch[24];
+int i,n;
+printf("\n enter the string:");
+scanf("%c",ch);
+printf("\n enter the limit:");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+printf("%c",str[i]);
+}
+getch();
+}
